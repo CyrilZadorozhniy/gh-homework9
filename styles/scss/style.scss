@@ -1,0 +1,30 @@
+@import "compass/reset";
+@import "compass/css3";
+
+body {
+  padding: 30px;
+}
+button {
+  display: block;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+#fade-text-in, #text-show {
+  display: none;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  p {
+    margin-left: 10px;
+  }
+  button {
+    margin: 0;
+  }
+}
